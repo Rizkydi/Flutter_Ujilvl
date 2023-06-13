@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_13/DetailPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: DetailPage(),
     );
   }
 }
@@ -74,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               Container(
                                 child: Column(
                                   children: [
-                                    Text('Status' 'SELESAI',style: TextStyle(textAlign: TextAlign.left),),
+                                    Text('Status' 'SELESAI'),
                                     Text('Nama Siswa' 'Arra'),
                                     SizedBox(height: 12,),
                                     Text('Kelas' 'XI PPLG 1'),
